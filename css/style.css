@@ -1,0 +1,61 @@
+html{
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.view {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-flow: column;
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	width: 100vw;
+}
+
+.cell {
+	width: 33.33%;
+}
+.cell a{
+	width: 100%;
+}
+.cell div {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: right;
+}
+
+header, footer {
+	height: 4.4rem;
+	background: green;
+}
+
+.main{
+	background: red;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.left, .right {
+	width: 100px;
+	background: yellowgreen;
+}
+
+.content {
+	flex-grow: 1;
+}
+
+img.auto {
+	width: 100%;
+	height: auto;
+}
